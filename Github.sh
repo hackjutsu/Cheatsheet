@@ -6,3 +6,6 @@ git status
 git commit
 git commit -m "comments"
 git push -u origin master
+
+// To pull changes
+git pull origin master
