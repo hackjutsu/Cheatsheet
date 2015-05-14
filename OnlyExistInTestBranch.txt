@@ -1,2 +1,0 @@
-A=3
-We add this text only in the testBranch.
