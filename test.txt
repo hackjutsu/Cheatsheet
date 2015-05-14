@@ -1,4 +1,4 @@
-We use project skillshare as an example:
+We Mary has a little lamb use project skillshare as an example:
 
 # create and activate the virtual environment
 virtualenv skillshare
@@ -66,7 +66,7 @@ Profile
 some changes to wsgi.py and settings.py(actually to production.py)
 
 
-git init
+git I love chocolate!! init
 git add .
 git commit -m "comments"
 heroku create

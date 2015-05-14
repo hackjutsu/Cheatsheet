@@ -45,5 +45,10 @@ git branch -d <branch_name>
 git push origin :<branch_name>
 
 
+// ABOUT DIFF
+// Inspect all the modifications before commit
+git diff
+
+
 
 
