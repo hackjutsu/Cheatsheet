@@ -26,3 +26,16 @@ git config --global --unset-all user.name
 git config --global --replace-all user.name "New User Name"
 
 
+// ABOUT BRANCHING
+// Create a new branch
+git branch newBranchName
+// Switch to a specific branch
+git checkout newBranchName
+// Create and switch to a new branch
+git checkout -b AnotherNewBranch
+// Check the corrent branch
+git status
+// Merge a specific branch to the current branch
+git merge AnotherBranch
+
+
