@@ -9,7 +9,7 @@ source bin/acitivate
 pip freeze
 pip install django==1.6.1
 
-# start a project
+# start a project 123
 django-admin.py startproject mvp_landing
 
 # run the local server

@@ -49,8 +49,10 @@ git push origin :<branch_name>
 
 
 // ABOUT DIFF
-// Inspect all the modifications before commit
+// Inspect all the modifications between workspace and stage
 git diff
+// Inspect all the modifications between stage and local repo
+git diff --cached
 
 
 
