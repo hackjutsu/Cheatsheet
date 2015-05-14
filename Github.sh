@@ -10,6 +10,9 @@ git push -u origin master
 // To pull changes
 git pull origin master
 
+// To untrack a file
+git rm --cached <file_name>
+
 
 // ABOUT CONFIGS
 // Working with Config globally/locally
