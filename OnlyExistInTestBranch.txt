@@ -1,2 +1,2 @@
-A=1
-Obviously, two branches have been merged.
+A=3
+We add this text only in the testBranch.
