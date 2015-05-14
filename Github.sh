@@ -28,14 +28,20 @@ git config --global --replace-all user.name "New User Name"
 
 // ABOUT BRANCHING
 // Create a new branch
-git branch newBranchName
+git branch  <new_branch_name>
 // Switch to a specific branch
-git checkout newBranchName
+git checkout  <new_branch_name>
 // Create and switch to a new branch
-git checkout -b AnotherNewBranch
-// Check the corrent branch
+git checkout -b <new_branch_name>
+// Check the current branch
 git status
 // Merge a specific branch to the current branch
-git merge AnotherBranch
+git merge <another_branch_name>
+// Delete a branch locally
+git branch -d <branch_name>
+// Delete a branch remotely
+git push origin :<branch_name>
+
+
 
 
