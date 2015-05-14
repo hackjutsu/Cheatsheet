@@ -27,6 +27,8 @@ git config --global --replace-all user.name "New User Name"
 
 
 // ABOUT BRANCHING
+// Check info for all available branches
+git branch
 // Create a new branch
 git branch  <new_branch_name>
 // Switch to a specific branch
