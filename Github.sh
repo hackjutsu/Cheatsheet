@@ -9,10 +9,10 @@ git push -u origin master
 
 // To pull changes to workspace
 git pull origin master 
-// To fetch changes to local repo
+// To fetch lastest changes from other developers to local repo
 git fetch <remote_name>
 // To merge the local repo and the workspace
-git merge 
+git merge origin master
 
 // To untrack a file
 git rm --cached <file_name>
