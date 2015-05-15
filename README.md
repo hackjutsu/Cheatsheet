@@ -5,4 +5,3 @@ Cheatsheet
     - add cheatsheet about Github commands  
 4/10/2016
     - add Singleton and Smart Pointer
-    testing for fetch
