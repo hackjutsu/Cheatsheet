@@ -17,6 +17,8 @@ git merge origin master
 // To untrack a file
 git rm --cached <file_name>
 
+// Change URL for a remote repo
+git remote set-url origin git://new.url.here
 
 // ABOUT CONFIGS
 // Working with Config globally/locally
