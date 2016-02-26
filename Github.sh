@@ -22,9 +22,9 @@ git remote set-url origin git://new.url.here
 
 // ABOUT CONFIGS
 // Working with Config globally/locally
-git config --global user.name="My username"
+git config --global user.name My username
 git config --gloabl user.email=myemail@example.com
-git config --local user.name="My username"
+git config --local user.name My username
 git config --local user.email=myemail@example.com
 
 // List all the configs
