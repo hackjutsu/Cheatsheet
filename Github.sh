@@ -7,7 +7,7 @@ git commit
 git commit -m "comments"
 git push -u origin master
 
-// To pull changes to workspace
+// To pull changes to workspace (= fetch + merge)
 git pull origin master 
 // To fetch lastest changes from other developers to local repo
 git fetch <remote_name>
