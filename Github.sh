@@ -36,6 +36,9 @@ git config --global --replace-all user.name "New User Name"
 
 
 // ABOUT BRANCHING
+// Fetch remote branches from Github
+git remote add origin <ULR> // we have to set origin first
+git pull // It will pull(fetch + merge) all available branches from Github
 // Check info for all available branches
 git branch
 // Create a new branch
