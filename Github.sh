@@ -19,6 +19,8 @@ git rm --cached <file_name>
 
 // Change URL for a remote repo
 git remote set-url origin git://new.url.here
+// Check remote configurations
+git remote -v
 
 // ABOUT CONFIGS
 // Working with Config globally/locally
@@ -57,11 +59,14 @@ git branch -d <branch_name>
 git push origin :<branch_name>
 
 
-// ABOUT DIFF
+// About DIFF
 // Inspect all the modifications between workspace and stage
 git diff
 // Inspect all the modifications between stage and local repo
 git diff --cached
+
+// About resolving conflicts (add it back)
+git add <resolved file>
 
 
 
