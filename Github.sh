@@ -14,6 +14,9 @@ git fetch <remote_name>
 // To merge the local repo and the workspace
 git merge origin master
 
+// To fix the previous commit
+git commit --amend
+
 // To untrack a file
 git rm --cached <file_name>
 
