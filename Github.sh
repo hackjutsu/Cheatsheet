@@ -71,6 +71,12 @@ git diff --cached
 // About resolving conflicts (add it back)
 git add <resolved file>
 
-
+// Advanced Topics
+// Get the SHA-1 key for a specific contents
+echo 'test content' | git hash-object -w --stdin
+// Get the content of a SHA-1 key
+git cat-file -p <key>
+// Get a object type for a SHA-1 key
+git cat-file -t <key>
 
 
