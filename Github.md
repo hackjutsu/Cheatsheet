@@ -17,6 +17,10 @@ git merge origin master
 // To fix the previous commit
 git commit --amend
 
+// To undo changes
+// unstage changes but keep the local changes
+git reset HEAD
+
 // To untrack a file
 git rm --cached <file_name>
 
