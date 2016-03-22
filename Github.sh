@@ -1,4 +1,3 @@
-```bash
 git init
 git pull https://github.com/registercosmo/Cheatsheet.git
 git remote add origin https://github.com/registercosmo/Cheatsheet.git
@@ -7,7 +6,7 @@ git status
 git commit
 git commit -m "comments"
 git push -u origin master
-```
+
 
 // To pull changes to workspace (= fetch + merge)
 git pull origin master
