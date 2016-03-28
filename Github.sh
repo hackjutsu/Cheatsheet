@@ -19,8 +19,12 @@ git merge origin master
 git commit --amend
 
 // To undo changes
-// unstage changes but keep the local changes
+// unstage changes but keep the local changes in the working space
 git reset HEAD
+// discard all the changes in the stage and working space, and match the working space the commit B
+git reset --hard B
+// move the HEAD to commit B, no modification will be made to the stage and the working space
+git reset --soft B
 
 // To untrack a file
 git rm --cached <file_name>
