@@ -56,10 +56,10 @@ git rm --cached <file_name>
 
 ```bash
 # set up a new remote repo (origin)
-git remote add origin git://new.url.here
+git remote add origin <new repo url>
 
 # change URL for a remote repo (origin)
-git remote set-url origin git://new.url.here
+git remote set-url origin <new repo url>
 
 # list all the remote repositories URLs
 git remote -v
@@ -68,22 +68,24 @@ git remote -v
 **About Configs**
 
 ```bash
-# set configurations for all repositories
-git config --global user.name My username
+# configurations for all repositories
+git config --global user.name # check current global user.name
+git config --global user.name <My username>
 git config --gloabl user.email=myemail@example.com
 
-# set configurations for local repository
-git config --local user.name My username
-git config --local user.email=myemail@example.com
+# configurations for local repository
+git config user.name # check current local user.name
+git config user.name <My username>
+git config -user.email=myemail@example.com
 
 # list all the configs
 git config --list
 
 # Remove the configs
-git config --global --unset-all user.name
+git config --global --unset-all user.name # global
 
 # Change the configs
-git config --global --replace-all user.name "New User Name"
+git config --global --replace-all user.name <New User Name> # global
 ```
 
 
