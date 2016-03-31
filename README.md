@@ -1,6 +1,8 @@
 
 # Quick Reference for Git Commands
 
+<img src="https://github.com/hackjustu/Cheatsheet/blob/master/git_tree.png" width="450">
+
 **Set up a new repository**
 
 ```bash
