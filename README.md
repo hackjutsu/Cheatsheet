@@ -1,5 +1,5 @@
 
-
+# Quick Reference for Git Commands
 
 **Set up a new repository**
 
