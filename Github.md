@@ -42,7 +42,7 @@ git reset HEAD
 # discard all the changes in the stage and working space, and match the working space the commit B
 git reset --hard B
 
-// move the HEAD to commit B, no modification will be made to the stage and the working space
+# move the HEAD to commit B, no modification will be made to the stage and the working space
 git reset --soft B
 ```
 
@@ -92,8 +92,7 @@ git config --global --replace-all user.name "New User Name"
 ```bash
 # fetch remote branches from Github
 git remote add origin <ULR> # we have to set origin first
-git pull # It will pull(fetch + merge) all available branches 
-from Github
+git pull # It will pull(fetch + merge) all available branches from repositories
 
 # check info for all available branches
 git branch
