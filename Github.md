@@ -1,3 +1,6 @@
+Set up a new repository.
+
+```bash
 git init
 git pull https://github.com/registercosmo/Cheatsheet.git
 git remote add origin https://github.com/registercosmo/Cheatsheet.git
@@ -6,31 +9,52 @@ git status
 git commit
 git commit -m "comments"
 git push -u origin master
+```
 
+Sync with the remote repository.
 
+```bash
 // To pull changes to workspace (= fetch + merge)
 git pull origin master
 // To fetch lastest changes from other developers to local repo
 git fetch <remote_name>
 // To merge the local repo and the workspace
 git merge origin master
+```
 
-// To fix the previous commit
+Fix the previous commit
+
+```bash
 git commit --amend
+```
 
-// To undo changes
+Undo changes
+
+```bash
 // unstage changes but keep the local changes
 git reset HEAD
+```
 
-// To untrack a file
+Untrack a file
+
+```bash
 git rm --cached <file_name>
+```
 
-// Change URL for a remote repo
+Set up remote repository.
+
+```bash
+// Set up a new remote repo (origin)
+git remote add origin git://new.url.here
+// Change URL for a remote repo (origin)
 git remote set-url origin git://new.url.here
-// Check remote configurations
+// List all the remote repositories URLs
 git remote -v
+```
 
-// ABOUT CONFIGS
+About Configs
+
+```bash
 // Working with Config globally/locally
 git config --global user.name My username
 git config --gloabl user.email=myemail@example.com
@@ -43,9 +67,12 @@ git config --list
 git config --global --unset-all user.name
 // Change the configs
 git config --global --replace-all user.name "New User Name"
+```
 
 
-// ABOUT BRANCHING
+About Branching
+
+```bash
 // Fetch remote branches from Github
 git remote add origin <ULR> // we have to set origin first
 git pull // It will pull(fetch + merge) all available branches from Github
@@ -65,23 +92,32 @@ git merge <another_branch_name>
 git branch -d <branch_name>
 // Delete a branch remotely
 git push origin :<branch_name>
+```
 
+About DIFF
 
-// About DIFF
+```bash
 // Inspect all the modifications between workspace and stage
 git diff
 // Inspect all the modifications between stage and local repo
 git diff --cached
+```
 
-// About resolving conflicts (add it back)
+About resolving conflicts (add it back)
+
+```bash
 git add <resolved file>
+```
 
-// Advanced Topics
+Advanced Topics
+
+```bash
 // Get the SHA-1 key for a specific contents
 echo 'test content' | git hash-object -w --stdin
 // Get the content of a SHA-1 key
 git cat-file -p <key>
 // Get a object type for a SHA-1 key
 git cat-file -t <key>
+```
 
 
